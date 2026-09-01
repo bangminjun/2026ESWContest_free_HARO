@@ -1,0 +1,168 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "AssistantCoreSDKEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AssistantCoreSDKRuntime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AssistantCoreSDKEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AssistantCoreSDKEditor.dll": {}
+        }
+      },
+      "AssistantCoreSDKRuntime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/AssistantCoreSDKRuntime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AssistantCoreSDKRuntime.dll": {}
+        }
+      },
+      "Meta.Voice.Hub.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.Voice.Hub.Runtime": "1.0.0",
+          "VoiceSDK.Telemetry": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.Voice.Hub.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.Voice.Hub.Editor.dll": {}
+        }
+      },
+      "Meta.Voice.Hub.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Meta.Voice.Hub.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.Voice.Hub.Runtime.dll": {}
+        }
+      },
+      "VoiceSDK.Telemetry/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AssistantCoreSDKEditor": "1.0.0",
+          "AssistantCoreSDKRuntime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VoiceSDK.Telemetry.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VoiceSDK.Telemetry.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AssistantCoreSDKEditor/1.0.0": {
+      "type": "project",
+      "path": "AssistantCoreSDKEditor.csproj",
+      "msbuildProject": "AssistantCoreSDKEditor.csproj"
+    },
+    "AssistantCoreSDKRuntime/1.0.0": {
+      "type": "project",
+      "path": "AssistantCoreSDKRuntime.csproj",
+      "msbuildProject": "AssistantCoreSDKRuntime.csproj"
+    },
+    "Meta.Voice.Hub.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.Voice.Hub.Editor.csproj",
+      "msbuildProject": "Meta.Voice.Hub.Editor.csproj"
+    },
+    "Meta.Voice.Hub.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Meta.Voice.Hub.Runtime.csproj",
+      "msbuildProject": "Meta.Voice.Hub.Runtime.csproj"
+    },
+    "VoiceSDK.Telemetry/1.0.0": {
+      "type": "project",
+      "path": "VoiceSDK.Telemetry.csproj",
+      "msbuildProject": "VoiceSDK.Telemetry.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Meta.Voice.Hub.Editor >= 1.0.0",
+      "Meta.Voice.Hub.Runtime >= 1.0.0",
+      "VoiceSDK.Telemetry >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/minjun/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Meta.Voice.VSDKHub.Editor.csproj",
+      "projectName": "Meta.Voice.VSDKHub.Editor",
+      "projectPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Meta.Voice.VSDKHub.Editor.csproj",
+      "packagesPath": "/Users/minjun/.nuget/packages/",
+      "outputPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Temp/obj/Meta.Voice.VSDKHub.Editor/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/minjun/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Meta.Voice.Hub.Editor.csproj": {
+              "projectPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Meta.Voice.Hub.Editor.csproj"
+            },
+            "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Meta.Voice.Hub.Runtime.csproj": {
+              "projectPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Meta.Voice.Hub.Runtime.csproj"
+            },
+            "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/VoiceSDK.Telemetry.csproj": {
+              "projectPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/VoiceSDK.Telemetry.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

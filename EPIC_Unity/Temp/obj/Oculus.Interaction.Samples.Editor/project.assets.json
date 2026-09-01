@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Oculus.Interaction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.VR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.dll": {}
+        }
+      },
+      "Oculus.Interaction.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.Editor.dll": {}
+        }
+      },
+      "Oculus.Interaction.OVR.Samples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.VR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.OVR.Samples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.OVR.Samples.dll": {}
+        }
+      },
+      "Oculus.VR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Oculus.VR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.VR.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oculus.Interaction/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.csproj",
+      "msbuildProject": "Oculus.Interaction.csproj"
+    },
+    "Oculus.Interaction.Editor/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.Editor.csproj",
+      "msbuildProject": "Oculus.Interaction.Editor.csproj"
+    },
+    "Oculus.Interaction.OVR.Samples/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.OVR.Samples.csproj",
+      "msbuildProject": "Oculus.Interaction.OVR.Samples.csproj"
+    },
+    "Oculus.VR/1.0.0": {
+      "type": "project",
+      "path": "Oculus.VR.csproj",
+      "msbuildProject": "Oculus.VR.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Oculus.Interaction >= 1.0.0",
+      "Oculus.Interaction.Editor >= 1.0.0",
+      "Oculus.Interaction.OVR.Samples >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/minjun/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Oculus.Interaction.Samples.Editor.csproj",
+      "projectName": "Oculus.Interaction.Samples.Editor",
+      "projectPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Oculus.Interaction.Samples.Editor.csproj",
+      "packagesPath": "/Users/minjun/.nuget/packages/",
+      "outputPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Temp/obj/Oculus.Interaction.Samples.Editor/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/minjun/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Oculus.Interaction.csproj": {
+              "projectPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Oculus.Interaction.csproj"
+            },
+            "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Oculus.Interaction.Editor.csproj": {
+              "projectPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Oculus.Interaction.Editor.csproj"
+            },
+            "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Oculus.Interaction.OVR.Samples.csproj": {
+              "projectPath": "/Users/minjun/Downloads/2026ESWContest_free_HARO/EPIC_Unity/Oculus.Interaction.OVR.Samples.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
