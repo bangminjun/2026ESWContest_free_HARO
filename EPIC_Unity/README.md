@@ -30,3 +30,5 @@ VR 기반 디지털 트윈 안전제어(MR) 시뮬레이션 프로젝트입니�
 3. `haro/controller2/state` 토픽을 구독하여 펌프카(ArticulationBody) 제어 상태 수신
 4. AI 인물 감지 결과는 별도 MQTT 토픽을 통해 실시간으로 수신되어 시뮬레이션에 반영됨
 5. VR 빌드 시 Meta Quest 기기와 연결 후 Build & Run
+
+> Meta XR SDK v1.89.0 별도 설치 필요
