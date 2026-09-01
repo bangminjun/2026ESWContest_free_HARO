@@ -3,9 +3,9 @@ from ultralytics import YOLO
 import paho.mqtt.client as mqtt
 
 # MQTT 설정
-MQTT_BROKER = ""
+MQTT_BROKER = "192.168.0.5"
 MQTT_PORT = 1883
-MQTT_TOPIC_DETECT = ""  # 감지된 사람 수 전송용
+MQTT_TOPIC_DETECT = "Haro/detect"  # 감지된 사람 수 전송용
 
 client = mqtt.Client()
 try:
