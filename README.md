@@ -26,7 +26,7 @@
 
 ### AI (작업자 감지)
 ```bash
-cd AI/AI
+cd AI
 pip install ultralytics opencv-python paho-mqtt
 python TEST1.py
 ```
